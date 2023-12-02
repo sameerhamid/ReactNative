@@ -1,9 +1,10 @@
 import React from 'react';
 
-import {SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet} from 'react-native';
 import FlatList from './components/FlatList';
 import ScrollCards from './components/ScrollCards';
 import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <FlatList />
         <ScrollCards />
         <FancyCard />
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
