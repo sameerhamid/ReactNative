@@ -5,6 +5,7 @@ import FlatList from './components/FlatList';
 import ScrollCards from './components/ScrollCards';
 import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ScrollCards />
         <FancyCard />
         <ActionCard />
+        <ContactList />
       </ScrollView>
     </SafeAreaView>
   );
