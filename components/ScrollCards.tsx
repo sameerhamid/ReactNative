@@ -35,7 +35,7 @@ const ScrollCards = () => {
 
 const styles = StyleSheet.create({
   scorllCardsContianer: {
-    marginHorizontal: 16,
+    marginHorizontal: 10,
   },
   headingText: {
     fontSize: 22,
@@ -51,6 +51,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 10,
+    elevation: 4,
+
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
+
+    shadowColor: 'red',
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
   },
   card1: {
     backgroundColor: 'red',

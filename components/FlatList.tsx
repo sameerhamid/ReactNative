@@ -12,21 +12,11 @@ const FlatList = () => {
           <Text>pink</Text>
         </View>
 
-        <View style={[styles.grey, styles.card]}>
+        <View style={[styles.orange, styles.card]}>
           <Text>grey</Text>
         </View>
 
         <View style={[styles.teal, styles.card]}>
-          <Text>teal</Text>
-        </View>
-
-        <View style={[styles.orange, styles.card]}>
-          <Text>teal</Text>
-        </View>
-        <View style={[styles.purple, styles.card]}>
-          <Text>teal</Text>
-        </View>
-        <View style={[styles.blue, styles.card]}>
           <Text>teal</Text>
         </View>
       </View>
