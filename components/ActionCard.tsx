@@ -103,6 +103,8 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
     borderRadius: 10,
   },
+  githubLink: {},
+  instagramLink: {},
 
   colorWhite: {
     color: 'white',
